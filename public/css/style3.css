@@ -1,0 +1,40 @@
+.card-header {
+    margin: 0;
+    padding: 0 0 2px;
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.card3 label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.card3 .input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card3 input[type="text"],
+.card3 input[type="email"],
+.card3 input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.card3 input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #911a11;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}

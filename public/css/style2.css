@@ -1,0 +1,158 @@
+.banner {
+    width: 100%;
+    position: relative;
+    background: url(https://s1.1zoom.me/big0/242/Fitness_weight_lifting_434614.jpg);
+    min-height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scrolling-active {
+    background-color: #fff;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    list-style-type: none;
+    color: #7B170F;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    background-size: 100% 3px;
+}
+
+.head {
+    color: #911a11;
+}
+
+.head:hover {
+    color: #911a11;
+}
+
+.log {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    list-style-type: none;
+}
+
+#foot {
+    background: #000000;
+}
+
+#logo {
+    position: relative;
+    bottom: 8px;
+}
+
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.nav ul li:hover>ul {
+    display: block;
+}
+
+#titulop {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #7B170F;
+    text-transform: uppercase;
+}
+
+#tr:hover {
+    box-shadow: 0px 0px 20px #000;
+}
+
+h5 {
+    color: red;
+}
+
+#pr {
+    margin-right: 10px;
+}
+#form {
+    background: #000;
+    align-items: center;
+    text-align: center;
+}
+
+#mes {
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#prev-month {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+#next-month {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+#dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+#datos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    border: 1px solid #fff;
+}
+
+.calendar-item {
+    text-align: center;
+    line-height: 2;
+}
+
+#month {
+    padding: .5em 1em;
+}
+
+#year {
+    padding: .5em 1em;
+}
+
+#today {
+    background: #911a11;
+    width: 30%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#antes {
+    opacity: .3;
+}
+
+#clases {
+    background: #fff;
+    width: 30%;
+    border-radius: 50%;
+    margin: auto;
+    color: #000;
+}
